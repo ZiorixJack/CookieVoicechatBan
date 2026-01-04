@@ -1,0 +1,22 @@
+# CookieVCBan Configuration
+
+# Messages
+messages:
+  ban-success: "<green>Successfully banned <player> from voice chat for <time>.</green>"
+  ban-success-permanent: "<green>Successfully banned <player> from voice chat permanently.</green>"
+  unban-success: "<green>Successfully unbanned <player> from voice chat.</green>"
+  already-banned: "<red><player> is already banned from voice chat.</red>"
+  not-banned: "<red><player> is not banned from voice chat.</red>"
+  player-not-found: "<red>Player not found.</red>"
+  banned-notification: "<red>You are banned from using voice chat.</red>"
+  banned-notification-temporary: "<red>You are banned from using voice chat for <time>.</red>"
+  no-permission: "<red>You don't have permission to use this command.</red>"
+  invalid-time: "<red>Invalid time format. Use format like: 1d, 12h, 30m, or 'inf' for permanent.</red>"
+
+# Settings
+settings:
+  # Notify player when they try to connect to voice chat while banned
+  notify-on-connect: true
+  
+  # Save banned players to file
+  save-to-file: true

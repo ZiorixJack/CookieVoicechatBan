@@ -1,0 +1,18 @@
+name: ${name}
+version: ${version}
+main: com.cookievcban.CookieVCBan
+description: ${description}
+api-version: ${apiVersion}
+author: Ziorix
+website: https://github.com/cookievcban
+
+depend:
+  - voicechat
+
+permissions:
+  cookievcban.ban:
+    description: Allows banning players from voice chat
+    default: op
+  cookievcban.unban:
+    description: Allows unbanning players from voice chat
+    default: op
